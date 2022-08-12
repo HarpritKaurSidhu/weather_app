@@ -7,5 +7,14 @@
       "**/*"
     ]
   },
-  "name": "weather_app"
+  "name": "weather_app",
+  "plugins": [
+    [
+      "expo-notifications",
+      {
+        "icon": "./local/assets/icon.png",
+        "color": "#ffffff"
+      }
+    ]
+  ]
 }
